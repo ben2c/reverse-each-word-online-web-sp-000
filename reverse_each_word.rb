@@ -5,5 +5,5 @@ def reverse_each_word (str)
     x = word.reverse
     final.push(x)
   end
-  return final.join
+  return final.join(" ")
 end
